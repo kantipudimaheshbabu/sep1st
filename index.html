@@ -1,0 +1,52 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <center>
+            <input id="input1" type="text" />
+            <button onclick="check()">check </button>
+            
+            <h1 id="output"></h1>
+        </center>
+        
+        
+    </body>
+</html>
+
+<script >
+
+
+
+function check(){
+    var n=document.getElementById("input1").value;
+    var output=document.getElementById("output");
+    if(n<=12){
+        output.textContent="ur baby";
+        console.log(age);
+        
+    }
+    else if(n>=13 && n<=19){
+        output.textContent="u r teen";
+        console.log(age);
+    }
+    else if(n>=20 && n<=60){
+        output.textContent="u r adult"
+        console.log(age);
+    }
+    else{
+        output.textContent="u r senior citizen"
+        console.log(age);
+    }
+    
+}
+    
+    
+function greet(name){
+    console.log(name)
+};
+greet('mb');
+    
+  
+    
+</script>
